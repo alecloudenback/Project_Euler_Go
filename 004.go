@@ -5,6 +5,9 @@ import (
 	"runtime"
 )
 
+// For this problem, I wanted to learn more about concurrency and
+// how I could parallelize the code.
+
 func isPalindrome(num int) bool {
 	var n, reverse, dig int
 	n = num
