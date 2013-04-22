@@ -9,6 +9,8 @@ func main() {
 	funcs := map[string]func() string{
 		"001": Problem001,
 		"002": Problem002,
+		"003": Problem003,
+		"004": Problem004,
 	}
 
 	fmt.Println("Problem ", os.Args[1], ":\n")
