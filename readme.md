@@ -1,0 +1,1 @@
+A repo to house attempts at Project Euler challenges using the Go Language.
