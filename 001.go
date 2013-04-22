@@ -1,8 +1,8 @@
 package main
 
-import "fmt"
+import "strconv"
 
-func main() {
+func Problem001() string {
 	sum := 0
 	for i := 0; i < 1000; i++ {
 		if i%3 == 0 || i%5 == 0 {
@@ -10,5 +10,5 @@ func main() {
 		}
 	}
 
-	fmt.Println(sum)
+	return strconv.Itoa(sum)
 }
